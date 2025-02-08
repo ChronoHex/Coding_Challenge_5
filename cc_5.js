@@ -28,3 +28,10 @@ cartItems.unshift("ice cream"); // adding item to beginning
 cartItems.shift(); // removing beginning item
 
 console.log(cartItems);
+
+// Task 4: Map Method
+let prices = [100, 200, 300]; // array of prices
+const discount = 0.9; // 10% discount
+let discountedPrices = prices.map(prices => prices * discount)
+
+console.log(discountedPrices)
