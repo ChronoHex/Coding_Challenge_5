@@ -19,3 +19,12 @@ const order = {
     }
 }; // Console log of customer order with details
 order.displayOrder();
+
+// Task 3: Array Manipulation
+let cartItems = ["chips", "Salsa", "plates"]; // array of items
+cartItems.push("soda"); // adding new item
+cartItems.pop(); // removing last item
+cartItems.unshift("ice cream"); // adding item to beginning
+cartItems.shift(); // removing beginning item
+
+console.log(cartItems);
