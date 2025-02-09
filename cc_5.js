@@ -1,13 +1,13 @@
 // Task 1: Object Properties
-const customer = {
+const customerInfo = {
     name: "John Doe",
     age: 35,
     email: "john.doe@email.com"
 }; // object as customer
 
-console.log(`Name: ${customer.name}`); // logging name of customer
-console.log(`Age: ${customer.age}`); // logging age of customer
-console.log(`Email: ${customer.email}`); // logging email of customer
+console.log(`Name: ${customerInfo.name}`); // logging name of customer
+console.log(`Age: ${customerInfo.age}`); // logging age of customer
+console.log(`Email: ${customerInfo.email}`); // logging email of customer
 
 // Task 2: Object Methods
 const order = {
@@ -47,3 +47,9 @@ let sales = [500, 300, 200, 400]; // array of sales
 let totalRevenue = sales.reduce((total, sales) => total + sales, 0); // function for total revenue
 
 console.log(totalRevenue);
+
+// Task 7: find() Method
+let customers = ["Alice", "Bob", "Charlie", "David"]; // array of customers
+let customer = customers.find(c => c === "Charlie"); // finding Charlie
+
+console.log(customer);
