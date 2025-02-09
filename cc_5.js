@@ -53,3 +53,12 @@ let customers = ["Alice", "Bob", "Charlie", "David"]; // array of customers
 let customer = customers.find(c => c === "Charlie"); // finding Charlie
 
 console.log(customer);
+
+// Task 8: Function Declaration
+function calculateTax(amount, taxRate) {
+    let tax = amount * taxRate;
+    console.log(`Calculated tax is: $${tax}`);
+    return tax;
+}; // function that returns calculated tax of an amount
+
+calculateTax(200, 0.15);
