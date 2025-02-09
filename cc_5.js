@@ -41,3 +41,9 @@ let inventory =[6, 7, 0, 4, 8, 10, 0]; // array of inventory
 let availableProducts = inventory.filter(stock => stock > 0); // filter out no stocks
 
 console.log(availableProducts);
+
+// Task 6: Reduce Method
+let sales = [500, 300, 200, 400]; // array of sales
+let totalRevenue = sales.reduce((total, sales) => total + sales, 0); // function for total revenue
+
+console.log(totalRevenue);
