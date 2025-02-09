@@ -34,4 +34,10 @@ let prices = [100, 200, 300]; // array of prices
 const discount = 0.9; // 10% discount
 let discountedPrices = prices.map(prices => prices * discount)
 
-console.log(discountedPrices)
+console.log(discountedPrices);
+
+// Task 5: Filter Method
+let inventory =[6, 7, 0, 4, 8, 10, 0]; // array of inventory
+let availableProducts = inventory.filter(stock => stock > 0); // filter out no stocks
+
+console.log(availableProducts);
