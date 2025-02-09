@@ -62,3 +62,11 @@ function calculateTax(amount, taxRate) {
 }; // function that returns calculated tax of an amount
 
 calculateTax(200, 0.15);
+
+// Task 9: Function Expression
+const applyDiscount = function(price, discount) {
+    let discountedPrice = price - (price * discount);
+    console.log(`Discounted Price: $${discountedPrice}`);
+    return discountedPrice;
+}; // function for applying discount
+applyDiscount(1000, .20)
